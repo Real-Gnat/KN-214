@@ -1,0 +1,117 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+
+  }
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #1e1e1e;
+}
+
+nav{
+    display: flex;
+}
+
+  nav ul {
+      display: flex;
+    list-style: none;
+  }
+  
+  nav ul::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    width: 125px;
+  }
+  nav ul li a:hover {
+    background-color: #950740;
+  }
+  nav ul ul {
+    display: none;
+    position: absolute;
+  }
+  nav ul li:hover ul {
+    display: block;
+      width: max-content;
+  }
+
+
+
+
+body {
+    background: url("https://subtlepatterns.com/patterns/debut_dark.png");
+    width: 100%;
+}
+
+
+  body{
+    background:img url(https://images.solecollector.com/complex/image/upload/oqdqcwujkbxzmk3zenej.jpg) no-repeat;
+}
+
+
+h1 {
+    font-weight: normal; 
+   } 
+   .select {
+    color: black; 
+    font-weight: 600; 
+   }
+       
+    body{
+      background:  url("http://7-themes.com/data_images/out/45/6923467-nike-livestrong-wallpaper.jpg") no-repeat;
+      
+    }
+
+   @media (min-width: 1001px ){
+    #top{
+      font-size: 3em;
+    }
+   }
+   @media (max-width: 1000px ) and (max-width: 320px) {
+    #top{
+      font-size: 2em;
+    }
+   }
+
+    @media (max-width: 320px ) {
+    #top{
+      font-size: 1.3em;
+      padding-top: 50%;
+    }
+   }
+
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    
+} 
+
+.form form input{
+    height: 22px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    width: 15%;
+    margin: 0 auto;
+}
+
+
+
+.form form label input{
+  position: relative;
+    top: 20px;
+   
+   margin:0 auto;
+    
+
+} 
+

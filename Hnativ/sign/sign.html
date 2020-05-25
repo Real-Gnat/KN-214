@@ -1,0 +1,167 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+      <        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+                    body {
+    background: url("https://subtlepatterns.com/patterns/debut_dark.png");
+}
+  * {
+    margin: 0;
+    padding: 0;
+
+  }
+  nav ul {
+    list-style: none;
+    background-color: #1e1e1e;
+     position: fixed;
+     width: 100%;
+  }
+  nav > ul > li{
+    float: left;
+  }
+  nav ul::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    width: 125px;
+  }
+  nav ul li a:hover {
+    background-color: #950740;
+  }
+  nav ul ul {
+    display: none;
+    position: absolute;
+  }
+  nav ul li:hover ul {
+    display: block;
+
+  }
+
+  /* ul {
+    font: 1em/1.4em Helvetica, Arial, sans-serif;
+    background-color: #87240F;
+    
+  }*/
+   li {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    list-style: none;   
+  }
+   li a {
+    display: block;
+    padding: 1em 1.5em;
+    color: #ccc;
+    text-decoration: none;
+    border-radius: 9px;
+       }
+ 
+  
+   li a:hover {
+    color: white;
+    background: #71200f;
+  }
+ 
+  /*ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }*/
+    
+  h1{
+    font-weight: normal; 
+   } 
+   .select {
+    color: #423939; 
+    font-weight: 900; 
+   }
+        </style>
+    </head>
+    <body>
+          <ul>
+              <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Price</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Sign up</a></li>\
+                <li><a href="#">About</a>
+                  <ul>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Rule</a></li>
+                    <li><a href="#">Comments</a></li>
+                  </ul>
+                </li>
+            </ul>
+          </nav>
+ <div>
+           
+
+  <p></p>
+   <p><center>
+    <pre>
+
+
+
+
+
+        Phone number:
+        <input type="text" placeholder="+380670001110" id="phone" name="phone">
+       
+         Login:
+         <input type="text" placeholder="gnat1409@gmail.com" id="email" name="email" >
+
+       
+        Password:
+        <input type="password" placeholder="password" id="password" name="password">
+      
+      
+        Birthday
+       
+        <input type="date">
+       
+       
+        Я не робот
+
+        <input type="checkbox"> 
+
+        <input type="button" onclick="validateForm()"  value="Зареєструватися" id="sign"> </a>
+
+        
+
+        <p></p>   </p></center>
+        
+
+
+        
+        
+
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+               
+    </body>
+</html>
+
+
+
+
+ 
+
+          
+
+ 
+        

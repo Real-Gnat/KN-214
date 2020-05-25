@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+                    body {
+    background: url("https://subtlepatterns.com/patterns/debut_dark.png");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+  }
+  nav ul {
+    list-style: none;
+    background-color: #1e1e1e;
+     position: fixed;
+     width: 100%;
+  }
+  nav > ul > li{
+    float: left;
+  }
+  nav ul::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    width: 125px;
+  }
+  nav ul li a:hover {
+    background-color: #950740;
+  }
+  nav ul ul {
+    display: none;
+    position: absolute;
+  }
+  nav ul li:hover ul {
+    display: block;
+
+  }
+
+  /* ul {
+    font: 1em/1.4em Helvetica, Arial, sans-serif;
+    background-color: #87240F;
+    
+  }*/
+   li {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    
+
+    
+  }
+   li a {
+    display: block;
+    padding: 1em 1.5em;
+    color: #ccc;
+    text-decoration: none;
+    border-radius: 9px;
+    
+    
+  }
+ 
+  
+   li a:hover {
+    color: white;
+    background: #71200f;
+  }
+ 
+  /*ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }*/
+    
+  h1{
+    font-weight: normal; 
+   } 
+   .select {
+    color: #423939; 
+    font-weight: 900; 
+   }
+
+   table{
+    width: 400px;
+    background-color:grey;
+    font-family: arial, sans-serif;
+
+
+}
+.table{display: flex;
+    justify-content: left;
+    align-items: left;
+}
+table, th, td {
+  border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 8px;
+}
+th{
+    text-align: left;
+}
+.table{
+    border-spacing: 8px;
+}
+        </style>
+    </head>
+    <body>
+         <ul>
+              <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Price</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Sign up</a></li>\
+                <li><a href="#">About</a>
+                  <ul>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Rule</a></li>
+                    <li><a href="#">Comments</a></li>
+                  </ul>
+                </li>
+            </ul>
+          </nav>
+          </header>
+    
+    </body>
+
+    <div class="table">
+<table>
+    <thead>
+        <tr>
+            <th>Consultant</th>
+            <th>Number</th>
+            <th>Time</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Славік</td>
+            <td>0671235439</td>
+            <td>10:00/14:00</td>
+        </tr>
+        <tr>
+            <td>Оксана</td>
+            <td>0671863237</td>
+            <td>14:00/18:00</td>
+        </tr>
+        <tr>
+            <td>Мирон</td>
+            <td>0674519221</td>
+            <td>18:00/22:00</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+</html>
